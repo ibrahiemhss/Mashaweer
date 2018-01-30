@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".LoginUserActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/big_txt_size"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="@string/log_in"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_email"
+            android:padding="8dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/bg_rectangle_edittext"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableRight="@drawable/ic_key"
+
+            android:padding="8dp"
+            android:background="@drawable/bg_rectangle_edittext"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/log_in"
+            android:background="@drawable/bg_rectangle_button"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="cursive"
+            android:text="@string/or"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/register"
+            android:background="@drawable/bg_rectangle_button"/>
+        <TextView
+            android:id="@+id/txt_rset_password"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="18dp"
+            android:onClick="gooResetPass"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/small_txt_size"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:layout_marginBottom="6dp"
+            android:text="@string/resetpassword"/>
+
+    </LinearLayout>
+</RelativeLayout>

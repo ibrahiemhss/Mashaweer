@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:map="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_on_line_shofier"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context=".Fragments.OnlineClients">
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/nameclient"
+
+    android:layout_below="@+id/PHONEclient"
+    android:layout_alignLeft="@+id/PHONE"
+    android:layout_alignStart="@+id/PHONE"
+    android:layout_marginTop="26dp" />
+
+<TextView
+    android:text="TextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/TimeClient"
+    ></TextView>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Faceclient"
+        ></TextView>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PHONEclient"
+        ></TextView>
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/idclient"
+        ></TextView>
+
+<Button
+    android:text="هل تريد الاتصال بالسائق"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/callclient"
+    android:textColor="@color/colorPrimaryDarker"
+    android:background="@drawable/white_border"
+    android:layout_below="@+id/CARMODEL"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="14dp" />
+
+    <Button
+        android:text="هل تريد ارسال رساله بالموافقه علي الطلب"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SendMssage"
+        android:textColor="@color/colorPrimaryDarker"
+        android:background="@drawable/white_border"
+
+        android:layout_below="@+id/CARMODEL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+<fragment
+    android:id="@+id/mapClients"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_border"
+    android:layout_below="@+id/ViewMapShofier"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="12dp">
+
+</fragment>
+
+</LinearLayout>

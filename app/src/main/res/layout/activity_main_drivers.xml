@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivityDrivers">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout_driver"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+        <include
+            layout="@layout/app_bar_main_driver"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nav_view_driver"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:fitsSystemWindows="true"
+            android:labelFor="@+id/app_bar_main"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/activity_main_drawer"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/white_border">
+
+        </android.support.design.widget.NavigationView>
+
+
+        <!--
+                app:headerLayout="@laynav_header_main_usersmain"
+        -->
+
+
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <!-- <array name="listSpeciality">
+        <item>@string/select_speciality</item>
+        <item>@string/Ear</item>
+        <item>@string/Nose</item>
+        <item>@string/Throat</item>
+
+    </array>
+    //lang&#45;&#45;2
+    <array name="listLang">
+        <item>@string/select_lang</item>
+        <item>@string/Arabic</item>
+        <item>@string/English</item>
+
+    </array>
+    //gender&#45;&#45;3
+    <array name="listGender">
+        <item>@string/select_gender</item>
+        <item>@string/Male</item>
+        <item>@string/Female</item>
+
+    </array>
+    //state&#45;&#45;4
+    <array name="listState">
+        <item>@string/select_state</item>
+        <item>@string/Ein</item>
+        <item>@string/Abu_Dhabi</item>
+        <item>@string/Dubai</item>
+
+    </array>
+    <array name="listArea">
+        <item>@string/select_area</item>
+        <item>@string/Ein</item>
+        <item>@string/Abu_Dhabi</item>
+        <item>@string/Dubai</item>
+
+    </array>
+
+    //insurance&#45;&#45;5
+    <array name="listInsurance">
+        <item>@string/insurance</item>
+        <item>@string/Full_Insurance</item>
+        <item>@string/Partial_Insurance</item>
+    </array>
+    <string-array name="pref_language_labels">
+        <item>@string/pref_language_arabic_label</item>
+        <item>@string/pref_language_english_label</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>@string/pref_language_arabic_value</item>
+        <item>@string/pref_language_english_value</item>
+    </string-array>
+-->
+</resources>
