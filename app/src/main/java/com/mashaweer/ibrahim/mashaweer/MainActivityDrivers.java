@@ -40,7 +40,6 @@ public class MainActivityDrivers extends AppCompatActivity
     private CircleImageView imageDriver;
     private DbGetSpinnerBackend dbGetSpinnerBackend;
     private List<BookModels> bookModels;
-
     private RecyclerView.LayoutManager recyclerViewlayoutManager;
     private RecyclerView.Adapter recyclerViewadapter;
     private RecyclerView Desplay_Shofires_For_Clients;
