@@ -197,7 +197,7 @@ public class MapUserActivity extends FragmentActivity implements OnMapReadyCallb
             ArrayList points = null;
             PolylineOptions lineOptions = null;
             MarkerOptions markerOptions = new MarkerOptions();
-
+            try {
             for (int i = 0; i < result.size(); i++) {
                 points = new ArrayList();
                 lineOptions = new PolylineOptions();
@@ -220,12 +220,12 @@ public class MapUserActivity extends FragmentActivity implements OnMapReadyCallb
                 lineOptions.geodesic(true);
 
             }
-            try {
+
                 Geocoder geocoder = new Geocoder(MapUserActivity.this, Locale.getDefault());
                 List<Address> addresses = geocoder.getFromLocation(mMap.getCameraPosition().target.latitude, mMap.getCameraPosition().target.longitude, 1);
-                if(markerPoints.size()==1){
+                if(markerPoints.size()>=1){
                     locationText.setText(locationText.getText() + "\n"+addresses.get(0).getAddressLine(0)+", "+
-                            addresses.get(0).getAddressLine(1)+", "+addresses.get(0).getAddressLine(2));
+                            addresses.get(0).getAddressLine(1)+", "+addresses.get(0).getAddressLine(1));
                 }else if(markerPoints.size()==2){
                     locationText2.setText(locationText2.getText() + "\n"+addresses.get(0).getAddressLine(0)+", "+
                             addresses.get(0).getAddressLine(1)+", "+addresses.get(0).getAddressLine(2));
