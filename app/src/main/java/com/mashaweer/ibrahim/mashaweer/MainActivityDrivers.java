@@ -47,8 +47,6 @@ public class MainActivityDrivers extends AppCompatActivity
     private MyDrawerLayout mDrawerLayout;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
