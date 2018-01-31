@@ -19,6 +19,11 @@
     <string name="car_spinner">Type of car</string>
     <string name="face_spinner">Place to go</string>
     <string name="btn_show_driver">View results</string>
+    <string name="title_activity_maps">Current Place Details</string>
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
     //list item driver
     <string name="btn_show_driver_details">Display driver information</string>
     <string name="driver_name">The driver,s name :</string>

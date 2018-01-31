@@ -28,12 +28,17 @@
 <!-- Activity Main User-->
     <string name="names">الاسم </string>
     <string name="email">البريد الالكتروني </string>
-    <!--Acticity Maps-->
 <string name="fromlocation">من</string>
     <string name="tolocation">الى</string>
     <string name="etfromlaction">مكان بداية المشوار</string>
     <string name="ettolocation">مكان نهاية المشوار</string>
     <string name="showDrivers">عرض السائقين المتاحين</string>
+    <string name="title_activity_maps">تفاصيل الكان الحالي</string>
+    <string name="default_info_title">المكان الاساسي</string>
+    <string name="default_info_snippet">لايوجد تفاصيل لعرض المكان لان الاذن غير مفعل</string>
+    <string name="option_get_place">اتي بالمكان</string>
+    <string name="pick_place">اختر المكان</string>
+
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>

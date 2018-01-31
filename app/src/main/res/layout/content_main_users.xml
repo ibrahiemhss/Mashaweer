@@ -79,22 +79,6 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:orientation="vertical">
-        <TextView
-            android:id="@+id/locationText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="23dp"
-
-            android:text="TextView1" />
-        <TextView
-            android:id="@+id/locationText2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="23dp"
-
-            android:text="TextView2" />
 
 
             <Spinner
@@ -124,26 +108,33 @@
 
     <Button
         android:id="@+id/btn_Book"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/map"
-        android:layout_alignEnd="@+id/map"
-        android:layout_alignRight="@+id/map"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_Location"
+        android:layout_marginTop="12dp"
         android:background="@drawable/bg_rectangle_textview"
         android:padding="10sp"
         android:text="@string/btn_show_driver"
         android:textColor="@color/white"
         android:textSize="@dimen/med_txt_size" />
 
-    <fragment
-        android:id="@+id/map"
-        android:layout_marginTop="3dp"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
+    <Button
+        android:id="@+id/btn_Location"
+
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_alignEnd="@+id/lin1"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/lin1" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_rectangle_textview"
+        android:padding="10sp"
+        android:text="@string/pick_place"
+        android:textColor="@color/white"
+        android:textSize="@dimen/med_txt_size" />
 
 
     <!--
