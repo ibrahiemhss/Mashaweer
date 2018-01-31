@@ -221,6 +221,7 @@ public class MapUserActivity extends FragmentActivity implements OnMapReadyCallb
 
             }
 
+
                 Geocoder geocoder = new Geocoder(MapUserActivity.this, Locale.getDefault());
                 List<Address> addresses = geocoder.getFromLocation(mMap.getCameraPosition().target.latitude, mMap.getCameraPosition().target.longitude, 1);
                 if(markerPoints.size()>=1){
