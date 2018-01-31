@@ -45,7 +45,6 @@ public class MainActivityDrivers extends AppCompatActivity
     private RecyclerView.Adapter recyclerViewadapter;
     private RecyclerView Desplay_Shofires_For_Clients;
     private MyDrawerLayout mDrawerLayout;
-    Button btn_Book;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
